@@ -8,7 +8,7 @@
 
 ---
 
-# SOFT6007 - Web Development Project 1
+# SOFT6007 - Web Development Fundamentals Project 1
 
 Worth: 55%
 
@@ -78,6 +78,6 @@ images required for your website, and upload it through Canvas.
 
 ---
 
-#### SOFT6007 - Web Development
+#### SOFT6007 - Web Development Fundamentals
 
 ##### Patrik Richard Szilagyi, 2020
