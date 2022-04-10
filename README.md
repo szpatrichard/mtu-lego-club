@@ -1,18 +1,12 @@
-<img src="https://socsportal.cit.ie/assets/images/logowhite.jpg" alt="CIT Logo" width="25%" />
+<img src="https://socsportal.cit.ie/assets/images/logowhite.jpg" alt="Cork Institute of Technology" width="25%" />
 
-#### Cork Institute of Technology
-
-##### CR106 - BSc Honours Software Development
-
-##### 2020-21 Academic Year (Year 1 Semester 1)
-
----
+#### CR106 - BSc Honours Software Development
 
 # SOFT6007 - Web Development Fundamentals Project 1
 
-Worth: 55%
+[![Demo](https://repository-images.githubusercontent.com/357983619/e146419d-ee8b-4c44-b376-99a771da46c5)](https://szpricky.github.io/cit-lego-building-club/)
 
-**Due Date:** Friday 11th December @ 23:59
+[Demo](https://szpricky.github.io/cit-lego-building-club/)
 
 ## CIT Lego Building Club
 
@@ -75,9 +69,5 @@ As a result of Covid-19 restrictions on various activities throughout society, m
 
 Create a zip file of the folder containing your HTML pages, CSS file, and all
 images required for your website, and upload it through Canvas.
-
----
-
-#### SOFT6007 - Web Development Fundamentals
 
 ##### Patrik Richard Szilagyi, 2020
