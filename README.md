@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# MTU Lego Club
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+As a result of Covid-19 restrictions on various activities throughout society, many people are returning to Lego building as an activity to keep busy during lockdown. There is great interest among CIT students to share their appreciation of Lego and you are asked to create a website for this new club.
 
-In the project directory, you can run:
+### Requirements
 
-### `npm start`
+-   **Homepage**
+    -   Welcome visitor and introduce visitor to the website
+    -   Include an embedded video from YouTube or Vimeo
+    -   A paragraph about Covid-19 precautions (e.g. social distancing) and a link to the HSE Covid-19 guidelines webpage.
+-   **Schedule / Events page**
+    -   Upcoming events – (use a table)
+    -   include a day, time and location (Zoom/ Skype / WhatsApp / etc.) for each event you add to the table. – include a hyperlink if required.
+    -   add a minimum of four events, for example: Swapping of Lego Minifigures; Big builds; or Speed builds.
+-   **Membership Information and Request page**
+    -   Name
+    -   Email address
+    -   Contact Number
+    -   Preferred method of contact – drop down list with choice of:
+        -   Email
+        -   Zoom
+        -   Skype
+        -   WhatsApp
+        -   Viber
+    -   Date of birth
+    -   Level of experience in Lego
+        -   Novice
+        -   Competent
+        -   Expert
+    -   Special requests / information request [optional] – for example:
+        -   Preference of Lego sets – e.g. Lego City, Technic, Star Wars – should have option of selecting more than one choice
+        -   Interest in taking part in competitions
+    -   Submit and Cancel buttons
+    -   Use https://webdevcit.com/displayvalues.php to verify that your form sends the data from the form to the server – **very important**
+-   **Contact Us Page**
+    -   Address, phone number and email to some imagined office (you have the option of using CIT’s Bishopstown Campus details for this section)
+    -   Map (embedded from Google Maps, make up the address)
+    -   **Twitter** feed to a relevant Twitter account
+    -   List of Frequently Asked Questions.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+##### Patrik Richard Szilagyi, 2020
