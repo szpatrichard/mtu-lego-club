@@ -1,73 +1,70 @@
-<img src="https://socsportal.cit.ie/assets/images/logowhite.jpg" alt="Cork Institute of Technology" width="25%" />
+# Getting Started with Create React App
 
-#### CR106 - BSc Honours Software Development
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# SOFT6007 - Web Development Fundamentals Project 1
+## Available Scripts
 
-[![Demo](https://repository-images.githubusercontent.com/357983619/e146419d-ee8b-4c44-b376-99a771da46c5)](https://szpricky.github.io/cit-lego-building-club/)
+In the project directory, you can run:
 
-[Demo](https://szpricky.github.io/cit-lego-building-club/)
+### `npm start`
 
-## CIT Lego Building Club
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-As a result of Covid-19 restrictions on various activities throughout society, many people are returning to Lego building as an activity to keep busy during lockdown. There is great interest among CIT students to share their appreciation of Lego and you are asked to create a website for this new club.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### The website should consist of:
+### `npm test`
 
--   **Homepage**
-    -   Welcome visitor and introduce visitor to the website
-    -   Include an embedded video from YouTube or Vimeo
-    -   A paragraph about Covid-19 precautions (e.g. social distancing) and a link to the HSE Covid-19 guidelines webpage.
--   **Schedule / Events page**
-    -   Upcoming events – (use a table)
-    -   include a day, time and location (Zoom/ Skype / WhatsApp / etc.) for each event you add to the table. – include a hyperlink if required.
-    -   add a minimum of four events, for example: Swapping of Lego Minifigures; Big builds; or Speed builds.
--   **Membership Information and Request page**
-    -   Name
-    -   Email address
-    -   Contact Number
-    -   Preferred method of contact – drop down list with choice of:
-        -   Email
-        -   Zoom
-        -   Skype
-        -   WhatsApp
-        -   Viber
-    -   Date of birth
-    -   Level of experience in Lego
-        -   Novice
-        -   Competent
-        -   Expert
-    -   Special requests / information request [optional] – for example:
-        -   Preference of Lego sets – e.g. Lego City, Technic, Star Wars – should have option of selecting more than one choice
-        -   Interest in taking part in competitions
-    -   Submit and Cancel buttons
-    -   Use https://webdevcit.com/displayvalues.php to verify that your form sends the data from the form to the server – **very important**
--   **Contact Us Page**
-    -   Address, phone number and email to some imagined office (you have the option of using CIT’s Bishopstown Campus details for this section)
-    -   Map (embedded from Google Maps, make up the address)
-    -   **Twitter** feed to a relevant Twitter account
-    -   List of Frequently Asked Questions.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Requirements
+### `npm run build`
 
-1. All content must be marked up using HTML5.
-2. All text must be your own.
-3. All the styling should be in **ONE** external CSS file. All your HTML pages must be linked to this **CSS** file. **No inline or embedded styling permitted**.
-4. Addressing to resources (CSS file, images and other web pages) must use relative addressing.
-5. Use CSS for the layout of the site. Tables may not be used for layout but may be used for suitable content.
-6. Consider using a suitable colour palette.
-7. Pages must be **HTML5** and **CSS3** compliant. Validate your pages and CSS files with http://validator.w3.org and https://jigsaw.w3.org/css-validator
-8. **You must have at least 1 page with a three column CSS layout**. Instead of three columns of text, consider using images in your three column layout
-9. There should be **persistent navigation** on each page. Every page should be accessible from every other page. **Navigation should be a horizontal navigation bar**.
-10. Every page should contain a "**housekeeping**" section e.g. contains copyright information and contact details for the website's developers.
-11. You should demonstrate use of **contextual selectors** and **pseudo-classes**.
-12. Consider responsiveness in your website, making it work on different screens and screen resolutions.
-13. Try to include images that you have taken yourself.
-14. Any images that you use from other websites must be referenced properly. The referencing can be included in the code as a comment beside the image code. Please note that using google.com as the source of the image is **NOT** sufficient. The exact web page URL for the image must be included in the comments.
-15. If you are looking for icons, please refer to reliable websites such as http://iconspedia.com paying particular attention to the licenses. For example, if the license requires attribution for the icon, then please include it in your website. Do not use Google's Image Search to search for icons because you cannot be sure of the associated licenses.
-16. Consider **accessibility** especially when creating the website paying particular attention to forms (connect labels to form elements OR use aria-label attribute, and other ARIA attributes). Validate the webpages using the validation tool at http://wave.webaim.org/.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Create a zip file of the folder containing your HTML pages, CSS file, and all
-images required for your website, and upload it through Canvas.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-##### Patrik Richard Szilagyi, 2020
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
