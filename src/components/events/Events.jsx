@@ -9,7 +9,7 @@ const Events = () => {
 				<div>
 					{data
 						.sort((a, b) => a.date - b.date)
-						.map(({ id, title, date, location }) => {
+						.map(({ id, title, date, location }) => 
 							{
 								return (
 									<div>
@@ -18,7 +18,7 @@ const Events = () => {
 									</div>
 								);
 							}
-						})}
+						)}
 				</div>
 			</div>
 		</section>
